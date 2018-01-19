@@ -1,6 +1,6 @@
 body {
 
-	background-color: #4cbb17;
+	/*background-color: #4cbb17;*/
 	font-family: arial;
 	margin-top: 200px;
 	text-align: center;
@@ -9,4 +9,5 @@ body {
 #clock {
 	font-weight: 300;
 	font-size: 100px;
+	color: white;
 }
