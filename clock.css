@@ -2,7 +2,7 @@ body {
 
 	/*background-color: #4cbb17;*/
 	font-family: arial;
-	margin-top: 200px;
+	margin-top: 250px;
 	text-align: center;
 }
 
@@ -10,4 +10,8 @@ body {
 	font-weight: 300;
 	font-size: 100px;
 	color: white;
+}
+
+#color {
+	
 }
