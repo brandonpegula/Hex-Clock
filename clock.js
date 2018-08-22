@@ -3,7 +3,7 @@ var color = document.getElementById('color');
 
 function digitClock(){
 	var time = new Date();
-	var hours = (time.getHours() % 12).toString();
+	var hours = time.getHours().toString();
 	var minutes = time.getMinutes().toString();
 	var seconds = time.getSeconds().toString();
 
@@ -20,7 +20,7 @@ function digitClock(){
 	}
 
 	var clockString = hours + ':' + minutes + ':' + seconds;
-	var hexcolorString = '#' + hours + minutes + seconds;
+	var hexcolorString = '#' + seconds + hours + seconds;
 
 	clock.textContent = clockString;
 
